@@ -15,9 +15,7 @@ load_dotenv()
 
 myToken = os.environ.get("api-token")
 url = 'http://api.ipstack.com/'
-search_term = ['121.223.153.177',
-               '14.201.123.98',
-               '121.223.158.71']
+search_term = ["""LIST OF IPs GOES HERE"""]
 
 #THIS SECTION TO READ RAW JSON FOR SINGLE IP - TESTING
 
